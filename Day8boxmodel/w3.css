@@ -1,0 +1,229 @@
+/* Định dạng thanh header */
+body {
+  top: 0px;
+  left: 0px;
+}
+.top {
+  position: fixed;
+  width: 100%;
+  /* margin-top: -60px; */
+  display: flex;
+  flex-direction: column;
+  top: 0px;
+  left: 0px;
+}
+.top-header {
+  /* position: fixed; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: bisque;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: #ccc;
+}
+
+/* Định dạng logo */
+.top--logo img {
+  height: 50px;
+  font-size: 36px;
+}
+
+/* Định dạng menu */
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  position: relative;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+
+ul li a:hover {
+  color: #04aa6d;
+}
+
+/* Định dạng ô tìm kiếm */
+ul li input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 5px 10px;
+  outline: none;
+  width: 150px;
+}
+
+ul li input[type="text"]:focus {
+  border-color: #04aa6d;
+}
+
+/* Định dạng nút đăng nhập và đăng ký */
+.top-button button {
+  background-color: white;
+  border: 1px solid #04aa6d;
+  color: #04aa6d;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.top--button button:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+.linkcontent a:hover {
+  color: #04aa6d;
+}
+.top-layout {
+  background-color: darksalmon;
+  /* margin-top: 77px; */
+}
+
+.learntocode {
+  font-size: 35px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #04aa6d;
+}
+.With {
+  color: aliceblue;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 10px;
+  outline: none;
+  width: 250px;
+  text-align: center;
+  font-size: 16px;
+}
+.content {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin-top: 101px;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  max-width: 100vw;
+}
+.linkcontent a {
+  color: aliceblue;
+}
+.content--a1 {
+  background-image: url(./img/background_in_space.webp);
+  height: 500px;
+}
+.content--a2 {
+  display: flex;
+  background-color: burlywood;
+  margin-top: -40px;
+  justify-content: center;
+  align-items: center;
+  gap: -50px;
+  margin-left: -2px;
+  /* flex-direction: column; */
+}
+.content--code {
+  background-color: #e7e9eb;
+  padding: 66px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-bottom: 150px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  font-size: 25px;
+}
+.learn--tryit {
+  display: flex;
+  background-color: antiquewhite;
+  border-radius: 30px;
+  font-size: 20px;
+  margin: 20px;
+}
+.code {
+  background-color: white;
+  border-left: 4px solid #04aa6d;
+  margin-bottom: 16px;
+  box-sizing: inherit;
+}
+/* .content--code {
+  background-color: #e7e9eb;
+  padding: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-bottom: 50px;
+} */
+.HTML {
+  font-size: 50px;
+  color: aqua;
+  text-align: center;
+  margin-left: 50px;
+  text-decoration: underline;
+}
+.thelanguage {
+  display: flex;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  justify-items: center;
+  color: magenta;
+}
+.content--button {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 0px;
+}
+.content--button1 button {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  margin: 10px auto;
+  display: flex;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  padding: 30px;
+  gap: 20px;
+  padding-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: space-evenly; */
+  margin-bottom: 15px;
+}
+.content--button1 button a {
+  text-align: center;
+}
+.bottom {
+  display: block;
+  background-color: aqua;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  width: 102%;
+}
